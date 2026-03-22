@@ -1,0 +1,23 @@
+# YouTube Shorts Pipeline — Requirements
+# Install with: pip install -r requirements.txt
+
+# Video processing
+moviepy==1.0.3
+opencv-python==4.9.0.80
+
+# AI / ML
+faster-whisper==1.0.3
+mediapipe==0.10.9
+
+# Image processing
+Pillow>=10.0.0
+
+# Numerical
+numpy>=1.24.0
+
+# Hugging Face model downloader (auto-installed by faster-whisper, pinned for stability)
+huggingface-hub>=0.20.0
+
+# Audio backend for moviepy
+imageio>=2.33.0
+imageio-ffmpeg>=0.4.9
